@@ -1,16 +1,16 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "webapp",
-  "main": "src/index.tsx",
   "compatibility_date": "2025-11-03",
   "pages_build_output_dir": "./dist",
   "compatibility_flags": [
     "nodejs_compat"
   ],
-  "d1_databases": [7a5df543-ac2b-4301-a95b-2b713cf42b9a
+  "d1_databases": [
     {
       "binding": "DB",
       "database_name": "webapp-production",
+      "database_id": "7a5df543-ac2b-4301-a95b-2b713cf42b9a",
       "migrations_dir": "migrations"
     }
   ],
