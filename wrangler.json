@@ -7,7 +7,7 @@
   "compatibility_flags": [
     "nodejs_compat"
   ],
-  "d1_databases": [
+  "d1_databases": [7a5df543-ac2b-4301-a95b-2b713cf42b9a
     {
       "binding": "DB",
       "database_name": "webapp-production",
