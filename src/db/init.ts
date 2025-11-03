@@ -237,7 +237,7 @@ export async function seedDatabase(db: D1Database) {
 
       // Insert admin user (password: Admin123!)
       db.prepare(`INSERT INTO users (email, name, password_hash, status) VALUES (?, ?, ?, ?)`)
-        .bind('admin@agewithcare.com', 'System Administrator', '$2a$10$N9qo8uLOickgx2ZMRZoMyeIjZAgcfl7p92ldGxad68LJZdL17lhWy', 'active'),
+        .bind('admin@agewithcare.com', 'System Administrator', '$2a$10$SZE7geMOPiGjlAIBCEdNsOOR6sfFcMG1s.1DCo3o8DzQdDRYTF7nC', 'active'),
 
       // Insert categories
       db.prepare(`INSERT INTO categories (name, slug, description, sort_order) VALUES (?, ?, ?, ?)`)
