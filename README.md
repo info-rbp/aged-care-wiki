@@ -22,7 +22,7 @@ A comprehensive policy and procedure management system for Age With Care, built 
 - **Production**: (To be deployed to Cloudflare Pages)
 - **Admin Portal**: /admin
 - **Login**: /login
-- **GitHub**: (To be created)
+- **GitHub**: https://github.com/info-rbp/aged-care-wiki
 
 ## Features Completed
 
