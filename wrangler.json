@@ -7,10 +7,11 @@
   "compatibility_flags": [
     "nodejs_compat"
   ],
-  "d1_databases": [7a5df543-ac2b-4301-a95b-2b713cf42b9a
+  "d1_databases": [
     {
       "binding": "DB",
       "database_name": "webapp-production",
+      "database_id": "7a5df543-ac2b-4301-a95b-2b713cf42b9a",
       "migrations_dir": "migrations"
     }
   ],
